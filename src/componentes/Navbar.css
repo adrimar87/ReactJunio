@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Fascinate Inline', cursive;
+    
+    font-size: 30px;
+    background-color: aquamarine;
+    height: 200px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Square Peg', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    
+   
+}
+li{
+    margin:5px
+}
