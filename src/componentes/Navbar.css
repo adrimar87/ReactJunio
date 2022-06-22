@@ -3,10 +3,10 @@ header{
     justify-content: center;
     align-items: flex-end;
     font-family: 'Fascinate Inline', cursive;
-    
+
     font-size: 30px;
     background-color: aquamarine;
-    height: 200px;
+    height: 250px;
 }
 ul{
     list-style-type: none;
@@ -20,4 +20,13 @@ ul{
 }
 li{
     margin:5px
+}
+
+.orden{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+h1{
+    margin-top: 20px    ;
 }
