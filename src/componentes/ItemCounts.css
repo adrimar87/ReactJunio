@@ -1,0 +1,13 @@
+button{
+    margin: 8px;
+}
+.conta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+    block-size: 45px;
+    font-family: 'Square Peg', cursive;
+    /* margin: 8px; */
+}

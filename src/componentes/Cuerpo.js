@@ -1,4 +1,5 @@
 import './Cuerpo.css';
+// import ItemCounts from './ItemCounts';
 import ItemListContainer from './ItemListContainer';
 
 function Cuerpo()  {
@@ -7,7 +8,7 @@ function Cuerpo()  {
        <div className="container">
         <div className="row">
             <div className="col">
-            <ItemListContainer/>
+              <ItemListContainer/>
             </div>
             <div className="col">
                                  
