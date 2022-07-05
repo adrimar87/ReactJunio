@@ -1,6 +1,6 @@
 import ItemList from './ItemList';
 import './ItemListContainer.css';
-import useState, { useEffect } from "react"
+import {useState,  useEffect } from "react"
 function ItemListContainer()  {
     // const bookData = [
     //     {
@@ -19,7 +19,7 @@ function ItemListContainer()  {
     //     stock:2
     //   }
     // ]
-  const [data,dataSet]=useState([]);
+  const [dataBook,dataSet]=useState([]);
   useEffect(()=>{
     setTimeout(
       fetch("data.json")
@@ -31,7 +31,7 @@ function ItemListContainer()  {
   )
   return (
        <>
-        <ItemList items={data}/>
+             <ItemList items={dataBook}/>
         </>   
   );
 }

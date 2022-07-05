@@ -1,4 +1,5 @@
 import './Cuerpo.css';
+import ItemCounts from './ItemCounts';
 // import {useEffect} from "react";
 
 import ItemListContainer from './ItemListContainer';
@@ -13,23 +14,12 @@ function Cuerpo()  {
   // ,[]  )
 
   return (
-    <body >
-       <div className="container">
-        <div className="row">
-            <div className="col">
-              <ItemListContainer/>
-              </div>
-            <div className="col">
-                                 
-                  
-                
-            </div>
-            
-        </div>
-        </div>
-    </body>
    
-  );
+       <div className="body">
+                 <ItemListContainer/>
+             {/* <ItemCounts/> */}
+        </div>        
+       );
 }
 
 export default Cuerpo
