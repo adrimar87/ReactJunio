@@ -1,15 +1,18 @@
 
 import './App.css';
-import Cuerpo from './componentes/Cuerpo';
+// import Cuerpo from './componentes/Cuerpo';
 import ItemCounts from './componentes/ItemCounts';
+import ItemListContainer from './componentes/ItemListContainer';
 import Navbar from './componentes/Navbar';
+
 
 function App() {
   return (
     <div className="App">
-     <Navbar></Navbar>
-     <Cuerpo></Cuerpo>
+     <Navbar/>
+     {/* <Cuerpo/> */}
      <ItemCounts/>
+     <ItemListContainer/>
     </div>
   );
 }

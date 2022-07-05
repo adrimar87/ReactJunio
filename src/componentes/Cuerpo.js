@@ -1,15 +1,24 @@
 import './Cuerpo.css';
-// import ItemCounts from './ItemCounts';
+// import {useEffect} from "react";
+
 import ItemListContainer from './ItemListContainer';
 
 function Cuerpo()  {
+  // useEffect(()=>{
+  //   fetch('data.json')
+  //   .then((resp) => resp.json())
+  //   .then((data)=> console.log(data))
+  // }
+  
+  // ,[]  )
+
   return (
     <body >
        <div className="container">
         <div className="row">
             <div className="col">
               <ItemListContainer/>
-            </div>
+              </div>
             <div className="col">
                                  
                   
