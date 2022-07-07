@@ -2,16 +2,20 @@
     {
         "id":1,
         "nombre":"Alguien te espera",
-        "stock":4
+        "stock":4,
+        "foto":"../multimedia/algtespera.jpg"
+        
     },
     {
         "id":2,
         "nombre":"Imaginieria",
-        "stock":8
+        "stock":8,
+        "foto":"../multimedia/imaing.jpg"
     },
     {
         "id":3,
         "nombre":"Limites",
-        "stock":2
+        "stock":2,
+        "foto":"../multimedia/imaing.jpg"
     }
 ]

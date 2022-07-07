@@ -1,4 +1,10 @@
-/* .dato{
+.dato{
     display: flex;
     flex-direction: column;
-} */
+    border-color: rgb(57 172 193);
+    border-style: double;
+    border-radius: 10px;
+    background-color: #d8e4e5;
+    font-family: 'Fascinate Inline', cursive;
+    width: 250px;
+}

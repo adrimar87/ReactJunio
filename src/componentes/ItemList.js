@@ -11,6 +11,7 @@ function ItemList(props)  {
             <Item
                 nombre={item.nombre}
                 stock={item.stock}
+                foto={item.foto}
                 
             />)
             // console.log(item.nombre)

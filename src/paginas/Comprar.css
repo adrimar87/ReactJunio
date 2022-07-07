@@ -1,0 +1,15 @@
+.book{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:40Px;
+    margin: auto;
+      
+}
+.tituloCompra{
+
+    font-family: 'Square Peg', cursive;
+    font-size: 50px;
+}

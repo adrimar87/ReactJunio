@@ -7,7 +7,7 @@ function ItemCounts()  {
     const  [cont,setCont]=useState(0);
 
     const suma = () => {
-        if(cont<15){
+        if(cont<5){
             setCont(cont + 1)
           }
     }
